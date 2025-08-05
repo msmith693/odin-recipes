@@ -26,37 +26,43 @@ h2, h3{
     border-radius: 20px;
 }
 
-.ingredients{
+.ingredients, .steps{
     background-color: rgb(160, 165, 126);
     padding: 10px 10px 10px 30px;
 }
 
 .ingredients.main{
-    height: 6em;
-    max-height: 120px;
+    height: 8em;
 }
 
 .ingredients.to-serve{
     height: 6em;
-    max-height: 85px;
 }
 
 .ingredients.marinade{
-    height: 9em;
-    max-height: 200px;
+    height: 13em;
 }
 
-.title, .ingredients, h2, h3, .description{
+.title, .ingredients, h2, h3, .description, .steps{
     margin: 20px auto;
     max-width: 500px;
     border-radius: 20px;
 }
 
-.description{
-    color:
+
+li, .description {
+    color:rgb(246, 255, 194);
+    background-color: rgb(160, 165, 126);
 }
 
 li {
-    color:rgb(249, 250, 215);
-    background-color: rgb(160, 165, 126);
+    padding: 4px;
+}
+
+a:link {
+    color:rgb(246, 255, 194);
+}
+
+a:visited{
+    color:rgb(79, 82, 61);
 }
