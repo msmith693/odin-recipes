@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(246, 255, 194);
+}
+
+body {
+    padding: 40px;
+}
+
+#fajitas {
+    display: block;   /*images are by default inline-block elements, which mens you cant just center them with margin:auto*/
+    margin:auto;
+    border-radius: 20px;
+}
+
+.title, h2, h3, .description{
+    color: rgb(131, 136, 102);
+    padding: 5px;
+    border: rgb(152, 158, 120) solid 2px;
+    text-align: center;
+    margin:auto;
+}
+
+h2, h3{
+    border-radius: 20px;
+}
+
+.ingredients{
+    background-color: rgb(160, 165, 126);
+    padding: 10px 10px 10px 30px;
+}
+
+.ingredients.main{
+    height: 6em;
+    max-height: 120px;
+}
+
+.ingredients.to-serve{
+    height: 6em;
+    max-height: 85px;
+}
+
+.ingredients.marinade{
+    height: 9em;
+    max-height: 200px;
+}
+
+.title, .ingredients, h2, h3, .description{
+    margin: 20px auto;
+    max-width: 500px;
+    border-radius: 20px;
+}
+
+.description{
+    color:
+}
+
+li {
+    color:rgb(249, 250, 215);
+    background-color: rgb(160, 165, 126);
+}
