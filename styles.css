@@ -4,7 +4,7 @@
     background-color: rgb(246, 255, 194);
 }
 
-.container {
+body {
     padding: 40px;
 }
 
@@ -16,13 +16,13 @@
 }
 
 .title {
-    color: rgb(152, 158, 120);
+    color: rgb(131, 136, 102);
     padding: 5px;
-    border: rgb(152, 158, 120) solid 2px;
+    border: rgb(131, 136, 102) solid 2px;
 }
 
 .list-container{
-    background-color: rgb(160, 165, 126);
+    background-color: rgb(131, 136, 102);
     padding: 5px;
     height: 400px;
     max-height: 600px;
@@ -30,18 +30,18 @@
 
 .list-element{
     color: rgb(246, 255, 194);
-    background-color: rgb(160, 165, 126);
+    background-color: rgb(131, 136, 102);
     font-size: 20px;
     margin: 75px;
 }
 
 a:link {
     color:rgb(246, 255, 194);
-    background-color: rgb(160, 165, 126);
+    background-color: rgb(131, 136, 102);
 }
 
 a:visited{
     color:rgb(79, 82, 61);
-    background-color: rgb(160, 165, 126)
+    background-color: rgb(131, 136, 102);
 }
 
